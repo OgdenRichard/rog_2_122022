@@ -1,0 +1,126 @@
+body {
+  font-family: "Raleway", sans-serif;
+  margin: 0;
+}
+
+header {
+  margin-top: 3em;
+  display: flex;
+  justify-content: space-between;
+}
+
+h1 {
+  font-size: 22px;
+}
+
+h2 {
+  font-size: 18px;
+}
+
+ul {
+  list-style-type: none;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+li,
+p,
+h3 {
+  font-size: 16px;
+}
+
+.main-container {
+  width: 1400px;
+  margin: 0px auto;
+  background-color: transparent;
+}
+
+.bookyheader__logo_container {
+  height: 19px;
+  width: 61.09px;
+  margin-top: 1em;
+  background-image: url("../assets/Booki@3x.png");
+  background-size: cover;
+}
+
+.bookyheader__nav_ul {
+  width: 200px;
+  margin: 0;
+  display: flex;
+  justify-content: space-between;
+}
+
+.bookyheader__nav_ul_link {
+  display: inline-block;
+  padding-top: 1em;
+  border-top: 2px solid transparent;
+}
+
+.bookyheader__nav_ul_link:hover {
+  border-top: 2px solid #0065fc;
+}
+
+.bookysearch_form_container {
+  position: relative;
+  width: 332px;
+}
+
+.bookysearch_form_container__input_text {
+  width: 332px;
+  height: 49px;
+  border: 1px solid #ccc;
+  border-radius: 15px;
+  padding: 10px 100px 10px 56px;
+  line-height: 1;
+  box-sizing: border-box;
+  outline: none;
+  border: 1px solid #f2f2f2;
+  font-size: 18px;
+  color: black;
+}
+
+.bookysearch_form_container__input_submit {
+  position: absolute;
+  width: 132px;
+  height: 49px;
+  left: 282px;
+  right: 0px;
+  top: 0px;
+  bottom: 0px;
+  border: 0;
+  background: #0065fc;
+  font-size: 18px;
+  color: #fff;
+  outline: none;
+  margin: 0;
+  padding: 0;
+  border-radius: 0px 15px 15px 0px;
+  z-index: 2;
+}
+
+.bookysearch_form_container__fa_rectangle {
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  left: 0%;
+  right: 84.94%;
+  top: 0%;
+  bottom: 0%;
+  background: #f2f2f2;
+  border-radius: 15px 0px 0px 15px;
+}
+
+::placeholder {
+  /* Most modern browsers support this now. */
+  color: black;
+}
+
+::-moz-placeholder {
+  /* Mozilla Firefox 19+ */
+  color: black;
+  opacity: 1;
+}
