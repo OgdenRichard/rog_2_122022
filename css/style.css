@@ -1,13 +1,7 @@
 body {
   font-family: "Raleway", sans-serif;
   margin: 0;
-}
-
-.booki-header {
-  margin-top: 3em;
-  margin-bottom: 3em;
-  display: flex;
-  justify-content: space-between;
+  padding: 0;
 }
 
 h1 {
@@ -39,6 +33,13 @@ h3 {
   background-color: transparent;
 }
 
+.booki-header {
+  margin-top: 3em;
+  margin-bottom: 3em;
+  display: flex;
+  justify-content: space-between;
+}
+
 .booki-header__logo_container {
   height: 19px;
   width: 61.09px;
@@ -62,7 +63,6 @@ h3 {
 
 .booki-header__nav li:hover {
   border-top: 2px solid #0065fc;
-  color: #0065fc;
 }
 
 .booki-header__nav a:hover {
@@ -199,6 +199,40 @@ h3 {
   border: 1px solid #d9d9d9;
   border-radius: 50%;
 }
+
+/* -------------------- booki search -------------------- */
+
+.booki-lodging {
+  display: flex;
+  justify-content: space-between;
+}
+
+.booki-lodging__container,
+.booki-lodging__popular {
+  background: #f2f2f2;
+  border-radius: 20px;
+}
+
+.booki-lodging__container{
+  width: 910px;
+}
+
+.booki-lodging__container h1 {
+  margin-top: 22px;
+  margin-left: 40px;
+}
+
+.booki-lodging__container h2 {
+  margin-left: 44px;
+}
+
+.booki-lodging__popular{
+  width: 450px;
+}
+
+
+
+/* -------------------- placeholders -------------------- */
 
 :-moz-placeholder {
   /* Mozilla Firefox 4 to 18 */
