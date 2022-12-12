@@ -119,6 +119,45 @@ h3 {
 
 /* -------------------- booki filters -------------------- */
 
+.booki-filters {
+  display: flex;
+  flex-direction: column;
+}
+
+.booki-filters__filters_container > div {
+  display: grid;
+  width: 860px;
+  grid-template-columns: auto auto auto auto;
+  grid-template-rows: 50px;
+}
+
+.booki-filters__filters_container button {
+  font-size: 17px;
+  font-style: normal;
+  font-weight: 700;
+  border: 0;
+  outline: none;
+  background-color: transparent;
+  color: black;
+}
+
+.filter {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid black;
+  border-radius: 25px;
+}
+
+.filter button i {
+  display: inline-block;
+}
+
+.filter i {
+  margin-right: 14px;
+  color:  #0065fc;
+}
+
 .booki-filters__info_container {
   display: flex;
   align-items: center;
