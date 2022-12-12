@@ -3,7 +3,7 @@ body {
   margin: 0;
 }
 
-.bookyheader {
+.booki-header {
   margin-top: 3em;
   margin-bottom: 3em;
   display: flex;
@@ -39,7 +39,7 @@ h3 {
   background-color: transparent;
 }
 
-.bookyheader__logo_container {
+.booki-header__logo_container {
   height: 19px;
   width: 61.09px;
   margin-top: 1em;
@@ -47,29 +47,29 @@ h3 {
   background-size: cover;
 }
 
-.bookyheader__nav_ul {
+.booki-header__nav_ul {
   width: 200px;
   margin: 0;
   display: flex;
   justify-content: space-between;
 }
 
-.bookyheader__nav_ul_link {
+.booki-header__nav_ul_link {
   display: inline-block;
   padding-top: 1em;
   border-top: 2px solid transparent;
 }
 
-.bookyheader__nav_ul_link:hover {
+.booki-header__nav_ul_link:hover {
   border-top: 2px solid #0065fc;
 }
 
-.bookysearch_form_container {
+.booki-search_form_container {
   position: relative;
   width: 332px;
 }
 
-.bookysearch_form_container__input_text {
+.booki-search_form_container__input_text {
   width: 332px;
   height: 49px;
   border: 1px solid #ccc;
@@ -83,7 +83,7 @@ h3 {
   color: black;
 }
 
-.bookysearch_form_container__input_submit {
+.booki-search_form_container__input_submit {
   position: absolute;
   width: 132px;
   height: 49px;
@@ -102,7 +102,7 @@ h3 {
   z-index: 2;
 }
 
-.bookysearch_form_container__fa_rectangle {
+.booki-search_form_container__fa_rectangle {
   position: absolute;
   display: flex;
   justify-content: center;
@@ -115,7 +115,7 @@ h3 {
   border-radius: 15px 0px 0px 15px;
 }
 
-.bookyfilters__info_container{
+.booki-filters__info_container{
   display: flex;
   align-items: center;
 }
