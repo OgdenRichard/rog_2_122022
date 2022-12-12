@@ -47,20 +47,20 @@ h3 {
   background-size: cover;
 }
 
-.booki-header__nav_ul {
+.booki-header__nav ul {
   width: 200px;
   margin: 0;
   display: flex;
   justify-content: space-between;
 }
 
-.booki-header__nav_ul_link {
+.booki-header__nav ul > li {
   display: inline-block;
   padding-top: 1em;
   border-top: 2px solid transparent;
 }
 
-.booki-header__nav_ul_link:hover {
+.booki-header__nav ul > li:hover {
   border-top: 2px solid #0065fc;
 }
 
