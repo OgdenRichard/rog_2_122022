@@ -54,15 +54,24 @@ h3 {
   justify-content: space-between;
 }
 
-.booki-header__nav ul > li {
+.booki-header__nav li {
   display: inline-block;
   padding-top: 1em;
   border-top: 2px solid transparent;
 }
 
-.booki-header__nav ul > li:hover {
+.booki-header__nav li:hover {
   border-top: 2px solid #0065fc;
+  color: #0065fc;
 }
+
+.booki-header__nav a:hover {
+  color: #0065fc;
+}
+
+/* .booki-header__nav li:has(> a:hover){
+  border-top: 2px solid #0065fc;
+} */
 
 /* -------------------- booki search -------------------- */
 
@@ -122,6 +131,16 @@ h3 {
 .booki-filters {
   display: flex;
   flex-direction: column;
+  margin-top: 46px;
+}
+
+.booki-filters__filters_container {
+  display: flex;
+  align-items: center;
+}
+
+.booki-filters__filters_container > h2 {
+  margin-right: 20px;
 }
 
 .booki-filters__filters_container > div {
@@ -129,6 +148,7 @@ h3 {
   width: 860px;
   grid-template-columns: auto auto auto auto;
   grid-template-rows: 50px;
+  gap: 25px;
 }
 
 .booki-filters__filters_container button {
@@ -145,8 +165,12 @@ h3 {
   display: flex;
   justify-content: center;
   align-items: center;
-  border: 1px solid black;
+  border: 2px solid #d9d9d9;
   border-radius: 25px;
+}
+
+.filter:hover {
+  background-color: #deebff;
 }
 
 .filter button i {
@@ -155,12 +179,13 @@ h3 {
 
 .filter i {
   margin-right: 14px;
-  color:  #0065fc;
+  color: #0065fc;
 }
 
 .booki-filters__info_container {
   display: flex;
   align-items: center;
+  margin-top: 30px;
 }
 
 .icon {
