@@ -64,12 +64,14 @@ h3 {
   border-top: 2px solid #0065fc;
 }
 
-.booki-search_form_container {
+/* -------------------- booki search -------------------- */
+
+.booki-search__form_container {
   position: relative;
   width: 332px;
 }
 
-.booki-search_form_container__input_text {
+.booki-search__form_container input {
   width: 332px;
   height: 49px;
   border: 1px solid #ccc;
@@ -83,7 +85,7 @@ h3 {
   color: black;
 }
 
-.booki-search_form_container__input_submit {
+.booki-search__form_container button {
   position: absolute;
   width: 132px;
   height: 49px;
@@ -102,7 +104,7 @@ h3 {
   z-index: 2;
 }
 
-.booki-search_form_container__fa_rectangle {
+.booki-search__form_container i {
   position: absolute;
   display: flex;
   justify-content: center;
