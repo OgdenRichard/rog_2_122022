@@ -104,7 +104,7 @@ h3 {
   z-index: 2;
 }
 
-.booki-search__form_container i {
+.booki-search__form_container > div {
   position: absolute;
   display: flex;
   justify-content: center;
@@ -163,7 +163,7 @@ h3 {
   align-items: center;
 }
 
-.booki-filters__info_container i {
+.icon {
   width: 24px;
   height: 24px;
   margin-right: 11px;
