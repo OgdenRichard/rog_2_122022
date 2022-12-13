@@ -252,8 +252,9 @@ h3 {
 }
 
 .lodging-card__img img {
-  max-width: 100%;
-}
+  width: 100%;
+  object-fit: cover;
+} 
 
 .lodging-card__info {
   display: flex;
@@ -278,15 +279,16 @@ h3 {
 }
 
 /* ------------------- common elements ------------------- */
-.star-rating{
+.star-rating {
   display: flex;
+  padding-top: 0px;
 }
-.star-rating i {
-  color: #0065fc;
+.star-rating__star {
+  color: #f2f2f2;
 }
 
-.star-rating :last-child {
-  color: #f2f2f2;
+.star-rating__star--active {
+  color: #0065fc;
 }
 
 /* -------------------- placeholders -------------------- */
