@@ -254,6 +254,7 @@ h3 {
 
 .lodging-card__img img {
   width: 100%;
+  height:100%;
   object-fit: cover;
 } 
 
@@ -280,7 +281,7 @@ h3 {
 }
 
 /* ------------------- common elements ------------------- */
-  
+
 .card-link {
   position: absolute;
   width: 100%;
