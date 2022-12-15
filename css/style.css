@@ -227,7 +227,6 @@ h3 {
 }
 
 .lodging_cards-container {
-  /* width: 910px; */
   display: grid;
   grid-template-columns: 246px 246px 246px;
   gap: 31px;
@@ -261,6 +260,7 @@ h3 {
 
 .popular-card > .small_card-img_container {
   width: 137px;
+  flex-shrink: 0;
   border-radius: 20px 0px 0px 20px;
 }
 
