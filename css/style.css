@@ -332,23 +332,20 @@ img {
   justify-content: space-between;
 }
 
-.lodging-card > .small_card-info_container h3 {
-  margin-top: 1px;
+.small_card-info_container h3 {
   margin-bottom: 0px;
 }
 
-.popular-card > .small_card-info_container h3 {
-  margin-bottom: 0px;
+.small_card-info_container p {
+  font-size: 14px;
 }
 
 .lodging-card > .small_card-info_container p {
-  font-size: 14px;
   margin-top: 5px;
   margin-bottom: 0px;
 }
 
 .popular-card > .small_card-info_container p {
-  font-size: 14px;
   margin-top: 9px;
 }
 
