@@ -344,7 +344,7 @@ img {
 .lodging-card > .small_card-info_container p {
   font-size: 14px;
   margin-top: 5px;
-  margin-bottom: 12px;
+  margin-bottom: 0px;
 }
 
 .popular-card > .small_card-info_container p {
@@ -383,6 +383,7 @@ img {
 .booki-activities {
   display: flex;
   flex-direction: column;
+  margin-top: 60px;
   margin-bottom: 61px;
 }
 
@@ -445,6 +446,8 @@ img {
 
 .star-rating {
   display: flex;
+  height:25px;
+  align-items: center;
   padding-top: 0px;
 }
 .star-rating__star {
