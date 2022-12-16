@@ -328,7 +328,7 @@ img {
 }
 
 .popular-card > .small_card-info_container {
-  height: 126px;
+  height: 144px;
   justify-content: space-between;
 }
 
@@ -446,10 +446,11 @@ img {
 
 .star-rating {
   display: flex;
-  height:25px;
+  height: 40px;
   align-items: center;
   padding-top: 0px;
 }
+
 .star-rating__star {
   color: #f2f2f2;
 }
