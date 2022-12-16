@@ -1,4 +1,5 @@
-body {
+body,
+button {
   font-family: "Raleway", sans-serif;
   margin: 0;
   padding: 0;
@@ -46,9 +47,10 @@ img {
   background-color: transparent;
 }
 
+/* -------------------- booki header -------------------- */
+
 .booki-header {
   margin-top: 0px;
-  margin-bottom: 3em;
   display: flex;
   justify-content: space-between;
 }
@@ -82,9 +84,14 @@ img {
 
 /* -------------------- booki search -------------------- */
 
+.booki-search {
+  margin-top: 45px;
+}
+
 .booki-search__form_container {
   position: relative;
   width: 332px;
+  margin-top: 4px;
 }
 
 .booki-search__form_container input {
@@ -92,7 +99,7 @@ img {
   height: 49px;
   border: 1px solid #ccc;
   border-radius: 15px;
-  padding: 10px 100px 10px 56px;
+  padding: 10px 50px 10px 70px;
   line-height: 1;
   box-sizing: border-box;
   outline: none;
@@ -112,6 +119,7 @@ img {
   border: 0;
   background: #0065fc;
   font-size: 18px;
+  font-weight: 700;
   color: #fff;
   outline: none;
   margin: 0;
@@ -139,19 +147,27 @@ img {
   /* Mozilla Firefox 4 to 18 */
   color: black;
   opacity: 1;
+  font-family: "Raleway", sans-serif;
+  font-weight: 700;
 }
 ::-moz-placeholder {
   /* Mozilla Firefox 19+ */
   color: black;
   opacity: 1;
+  font-family: "Raleway", sans-serif;
+  font-weight: 700;
 }
 :-ms-input-placeholder {
   /* Internet Explorer 10-11 */
   color: black;
+  font-family: "Raleway", sans-serif;
+  font-weight: 700;
 }
 ::-ms-input-placeholder {
   /* Microsoft Edge */
   color: black;
+  font-family: "Raleway", sans-serif;
+  font-weight: 700;
 }
 
 /* -------------------- booki filters -------------------- */
