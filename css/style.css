@@ -1,6 +1,20 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  width: 100%;
+  max-width: 1400px;
+  margin: auto;
+  padding: auto;
+}
+
 body,
 button {
   font-family: "Raleway", sans-serif;
+}
+
+button {
   margin: 0;
   padding: 0;
 }
@@ -42,7 +56,6 @@ img {
 }
 
 .main-container {
-  width: 1400px;
   margin: 0px auto;
   background-color: transparent;
 }
@@ -64,6 +77,7 @@ img {
 .booki-header__nav ul {
   width: 200px;
   margin: 0;
+  padding-left: 0;
   display: flex;
   justify-content: space-between;
 }
