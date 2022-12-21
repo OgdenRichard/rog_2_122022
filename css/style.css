@@ -290,8 +290,9 @@ img {
 .lodging_cards-container {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
-  gap: 31px;
+  gap: 2vw;
   margin-left: 40px;
+  margin-right: 40px;
 }
 
 .lodging-card,
@@ -315,6 +316,10 @@ img {
   flex-direction: row;
 }
 
+.small_card-info_container > div > p,h3{
+  font-size: 1.15vw;
+}
+
 .lodging-card > .small_card-img_container {
   height: 124px;
   border-radius: 20px 20px 0px 0px;
@@ -334,7 +339,8 @@ img {
 .small_card-info_container {
   display: flex;
   flex-direction: column;
-  margin-left: 16px;
+  margin-left: 10px;
+  padding-right: 10px;
 }
 
 .lodging-card > .small_card-info_container {
@@ -369,7 +375,7 @@ img {
 }
 
 .booki-lodging__popular {
-  width: 30%;
+  width: 31%;
   height: auto;
 }
 
