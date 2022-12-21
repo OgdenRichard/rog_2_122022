@@ -273,8 +273,8 @@ img {
 }
 
 .booki-lodging__container {
-  width: 880px;
-  height: 626px;
+  width: 66%;
+  height: auto;
 }
 
 .booki-lodging__container h1 {
@@ -368,7 +368,8 @@ img {
 }
 
 .booki-lodging__popular {
-  width: 420px;
+  width: 30%;
+  height: auto;
 }
 
 .popular-title {
@@ -391,6 +392,7 @@ img {
   grid-template-columns: 343px;
   gap: 33px;
   padding-left: 37px;
+  padding-bottom: 34px;
 }
 
 /* ------------------- booki activities ------------------- */
