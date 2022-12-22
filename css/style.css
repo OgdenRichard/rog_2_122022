@@ -324,7 +324,7 @@ img {
 }
 
 .lodging-card > .small_card-img_container {
-  height: 124px;
+  height: 62.5%;
   border-radius: 20px 20px 0px 0px;
 }
 
@@ -346,13 +346,17 @@ img {
   padding-right: 10px;
 }
 
+.info-text {
+  height: 70%;
+}
+
 .lodging-card > .small_card-info_container {
-  height: 75px;
+  height: 37.5%;
   justify-content: start;
 }
 
 .popular-card > .small_card-info_container {
-  height: 144px;
+  width: 60%;
   justify-content: space-between;
 }
 
@@ -477,7 +481,7 @@ img {
 
 .star-rating {
   display: flex;
-  height: 40px;
+  height: 20%;
   align-items: center;
   padding-top: 0px;
 }
