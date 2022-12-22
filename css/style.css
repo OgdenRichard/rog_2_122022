@@ -382,8 +382,6 @@ img {
   justify-content: space-between;
   align-items: center;
   margin-top: 22px;
-  /* padding-left: 10%;
-  padding-right: 10%; */
 }
 
 .popular-title i {
@@ -397,8 +395,6 @@ img {
   display: grid;
   grid-template-columns: 1fr;
   gap: 2rem;
-  /* padding-left: 10%;
-  padding-right: 10%; */
   padding-bottom: 34px;
 }
 
@@ -413,25 +409,35 @@ img {
 
 .booki-activities__cards {
   display: grid;
-  grid-template-columns: 302px 302px 302px 302px;
-  gap: 43px;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: 31.6vw;
+  gap: 2.6vw;
 }
 
 .activity-card {
-  position: relative;
-  height: 444.51px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
   border-radius: 20px;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
 }
 
 .activity-card__img_container {
-  height: 389px;
+  height: 85%;
   border-radius: 20px 20px 0px 0px;
   overflow: hidden;
 }
 
+.activity-title {
+  height: 15%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-left: 16px;
+}
+
 .activity-card h3 {
-  margin-left: 19px;
+  padding-bottom: 0;
 }
 
 /* -------------------- booki footer --------------------- */
