@@ -445,22 +445,22 @@ img {
 
 .booki-footer {
   height: 225px;
-  background-color: #d9d9d9;
-}
-
-.booki-footer__nav-container {
   display: flex;
   justify-content: space-between;
-  width: 940px;
+  background-color: #d9d9d9;
   padding-top: 45px;
-  margin-left: 70px;
+  padding-left: 70px;
 }
 
-.booki-footer__nav-container ul {
+.booki-footer__submenu {
+  width: 33%;
+}
+
+.booki-footer__submenu ul {
   padding-left: 0px;
 }
 
-.booki-footer__nav-container li {
+.booki-footer__submenu li {
   margin-bottom: 12px;
 }
 
