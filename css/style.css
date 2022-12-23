@@ -388,7 +388,7 @@ img {
 }
 
 .lodging-card {
-  width: 246px;
+  flex: 1 1 30%;
   height: 199px;
   flex-direction: column;
 }
