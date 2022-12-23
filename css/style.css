@@ -379,7 +379,7 @@ img {
 
   display: flex;
   flex-direction: column;
-  gap:30px;
+  gap: 30px;
 }
 
 .lodging-card,
@@ -524,4 +524,32 @@ img {
 
 .booki-footer__submenu li {
   margin-bottom: 12px;
+}
+
+/*========================================================*\
+                          BREAKPOINTS
+\*========================================================*/
+
+@media only screen and (min-width: 992px) {
+}
+
+@media only screen and (width < 992px) {
+  .booki-lodging {
+    flex-direction: column;
+    gap: 50px;
+  }
+
+  .booki-lodging__container {
+    width: 100%;
+    height: auto;
+  }
+
+  .booki-lodging__popular {
+    width: 100%;
+    height: auto;
+  }
+
+  .popular-cards-container {
+    flex-direction: row;
+  }
 }
