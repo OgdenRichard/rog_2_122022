@@ -1,3 +1,7 @@
+/*========================================================*\
+                          BASE
+\*========================================================*/
+
 * {
   box-sizing: border-box;
 }
@@ -55,15 +59,45 @@ img {
   object-fit: cover;
 }
 
+/*========================================================*\
+                          LAYOUT
+\*========================================================*/
+
 .main-container {
   margin: 0px auto;
   background-color: transparent;
 }
 
+.booki-header {
+  margin-top: 0px;
+}
+
+.booki-search {
+  margin-top: 45px;
+}
+
+.booki-filters {
+  margin-top: 31px;
+}
+
+.booki-activities {
+  margin-top: 60px;
+  margin-bottom: 61px;
+}
+
+.booki-footer {
+  height: 225px;
+  padding-top: 45px;
+  padding-left: 70px;
+}
+
+/*========================================================*\
+                          MODULES
+\*========================================================*/
+
 /* -------------------- booki header -------------------- */
 
 .booki-header {
-  margin-top: 0px;
   display: flex;
   justify-content: space-between;
 }
@@ -78,14 +112,17 @@ img {
   width: 200px;
   margin: 0;
   padding-left: 0;
+
   display: flex;
   justify-content: space-between;
 }
 
 .booki-header__nav li {
-  display: inline-block;
   padding-top: 44px;
+
   border-top: 2px solid transparent;
+
+  display: inline-block;
 }
 
 .booki-header__nav li:hover {
@@ -98,26 +135,23 @@ img {
 
 /* -------------------- booki search -------------------- */
 
-.booki-search {
-  margin-top: 45px;
-}
-
 .booki-search__form_container {
-  position: relative;
   width: 332px;
+  position: relative;
   margin-top: 4px;
 }
 
 .booki-search__form_container input {
   width: 332px;
   height: 49px;
-  border: 1px solid #ccc;
-  border-radius: 15px;
   padding: 10px 50px 10px 70px;
-  line-height: 1;
   box-sizing: border-box;
+
+  border-radius: 15px;
   outline: none;
   border: 1px solid #f2f2f2;
+
+  line-height: 1;
   font-size: 18px;
   color: black;
 }
@@ -190,7 +224,6 @@ img {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  margin-top: 31px;
 }
 
 .booki-filters__filters_container {
@@ -295,12 +328,22 @@ img {
 }
 
 .lodging_cards-container {
+  margin-right: 40px;
+  margin-left: 40px;
+
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(246px, 1fr));
   grid-template-rows: 1fr;
   gap: 6% 4%;
-  margin-left: 40px;
-  margin-right: 40px;
+}
+
+.popular-cards-container {
+  width: 100%;
+  padding-bottom: 34px;
+
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 2rem;
 }
 
 .lodging-card,
@@ -325,6 +368,11 @@ img {
   flex-direction: row;
 }
 
+.small_card-img_container {
+  overflow: hidden;
+  border: 5px solid #ffffff;
+}
+
 .lodging-card > .small_card-img_container {
   height: 62.5%;
   border-radius: 20px 20px 0px 0px;
@@ -336,20 +384,11 @@ img {
   border-radius: 20px 0px 0px 20px;
 }
 
-.small_card-img_container {
-  overflow: hidden;
-  border: 5px solid #ffffff;
-}
-
 .small_card-info_container {
   display: flex;
   flex-direction: column;
   margin-left: 10px;
   padding-right: 10px;
-}
-
-.info-text {
-  height: 70%;
 }
 
 .lodging-card > .small_card-info_container {
@@ -360,6 +399,10 @@ img {
 .popular-card > .small_card-info_container {
   width: 60%;
   justify-content: space-between;
+}
+
+.info-text {
+  height: 70%;
 }
 
 .small_card-info_container h3 {
@@ -396,21 +439,11 @@ img {
   color: #0065fc;
 }
 
-.popular-cards-container {
-  width: 100%;
-  display: grid;
-  grid-template-columns: 1fr;
-  gap: 2rem;
-  padding-bottom: 34px;
-}
-
 /* ------------------- booki activities ------------------- */
 
 .booki-activities {
   display: flex;
   flex-direction: column;
-  margin-top: 60px;
-  margin-bottom: 61px;
 }
 
 .booki-activities__cards {
@@ -451,12 +484,9 @@ img {
 /* -------------------- booki footer --------------------- */
 
 .booki-footer {
-  height: 225px;
   display: flex;
   justify-content: space-between;
   background-color: #d9d9d9;
-  padding-top: 45px;
-  padding-left: 70px;
 }
 
 .booki-footer__submenu {
