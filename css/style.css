@@ -297,7 +297,8 @@ img {
 .lodging_cards-container {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(246px, 1fr));
-  gap: 2vw;
+  grid-template-rows: 1fr;
+  gap: 6% 4%;
   margin-left: 40px;
   margin-right: 40px;
 }
