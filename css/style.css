@@ -158,7 +158,6 @@ img {
 
 .search-button {
   position: absolute;
-  width: 132px;
   height: 49px;
   left: 282px;
   right: 0px;
@@ -175,6 +174,15 @@ img {
   color: #fff;
 
   z-index: 2;
+}
+
+.button-text {
+  width: 132px;
+}
+
+.button-mglass {
+  width: 49px;
+  z-index: 1;
 }
 
 .booki-search__form_container > div {
@@ -592,6 +600,10 @@ img {
     flex-direction: column;
   }
 
+  .button-text {
+    display: none;
+  }
+
   .booki-filters,
   .booki-search,
   .booki-lodging__popular,
@@ -638,8 +650,8 @@ img {
     flex-wrap: nowrap;
   }
 
-  .lodging-card{
-    height: 199px;
+  .lodging-card {
+    height: 300px;
   }
 
   .lodging-card > .small_card-img_container {
