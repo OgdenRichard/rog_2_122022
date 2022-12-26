@@ -226,16 +226,16 @@ img {
   justify-content: space-between;
 }
 
-.booki-filters__filters_container {
+.booki-filters__main_container {
   display: flex;
   align-items: center;
 }
 
-.booki-filters__filters_container > h2 {
+.booki-filters__main_container > h2 {
   margin-right: 20px;
 }
 
-.booki-filters__filters_container > div {
+.filters-buttons {
   display: grid;
   width: 860px;
   grid-template-columns: auto auto auto auto;
@@ -243,7 +243,7 @@ img {
   gap: 25px;
 }
 
-.booki-filters__filters_container button {
+.booki-filters__main_container button {
   font-size: 17px;
   font-style: normal;
   font-weight: 700;
