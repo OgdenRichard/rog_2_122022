@@ -566,3 +566,50 @@ img {
     flex-direction: row;
   }
 }
+
+@media only screen and (width < 768px) {
+  .booki-filters__main_container {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 1.5%;
+  }
+
+  .filters-boxes-container {
+    width: 100%;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 30px;
+  }
+
+  .filter-box {
+    flex: 1 1 40%;
+    align-items: center;
+  }
+
+  .booki-lodging {
+    flex-direction: column-reverse;
+  }
+
+  .booki-lodging__container {
+    width: 100%;
+  }
+
+  .booki-lodging__popular {
+    width: 100%;
+  }
+
+  .booki-activities__cards {
+    flex-direction: column;
+    gap:30px
+  }
+
+  .activity-card {
+    width: 100%;
+    height: 190px;
+  }
+
+  .booki-footer{
+    height: auto;
+    flex-direction: column;
+  }
+}
