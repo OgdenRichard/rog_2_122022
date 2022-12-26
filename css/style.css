@@ -568,6 +568,33 @@ img {
 }
 
 @media only screen and (width < 768px) {
+  header,
+  main,
+  footer {
+    margin: 0;
+  }
+
+  .main-container {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .booki-search {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .booki-filters,
+  .booki-search,
+  .booki-lodging__popular,
+  .booki-lodging__container,
+  .booki-activities {
+    padding: 0 20px;
+  }
+
   .booki-filters__main_container {
     flex-direction: column;
     align-items: flex-start;
@@ -600,7 +627,7 @@ img {
 
   .booki-activities__cards {
     flex-direction: column;
-    gap:30px
+    gap: 30px;
   }
 
   .activity-card {
@@ -608,7 +635,8 @@ img {
     height: 190px;
   }
 
-  .booki-footer{
+  .booki-footer {
+    width: 100%;
     height: auto;
     flex-direction: column;
   }
