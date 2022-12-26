@@ -156,7 +156,7 @@ img {
   color: black;
 }
 
-.booki-search__form_container button {
+.search-button {
   position: absolute;
   width: 132px;
   height: 49px;
@@ -164,15 +164,16 @@ img {
   right: 0px;
   top: 0px;
   bottom: 0px;
-  border: 0;
-  background: #0065fc;
-  font-size: 18px;
-  font-weight: 700;
-  color: #fff;
-  outline: none;
   margin: 0;
   padding: 0;
+
   border-radius: 0px 15px 15px 0px;
+
+  background: #0065fc;
+
+  font-size: 18px;
+  color: #fff;
+
   z-index: 2;
 }
 
@@ -227,26 +228,22 @@ img {
 }
 
 .booki-filters__main_container {
+  width: 100%;
   display: flex;
+  justify-content: flex-start;
   align-items: center;
-}
-
-.booki-filters__main_container > h2 {
-  margin-right: 20px;
+  gap: 3%;
 }
 
 .filters-buttons {
-  display: flex;
   width: 80%;
-  justify-content: space-between;
+  display: flex;
+  justify-content: flex-start;
+  gap: 45px;
 }
 
-.booki-filters__main_container button {
+.filter-button {
   font-size: 17px;
-  font-style: normal;
-  font-weight: 700;
-  border: 0;
-  outline: none;
   background-color: transparent;
   color: black;
 }
@@ -258,7 +255,7 @@ img {
   justify-content: center;
   align-items: center;
 
-  padding: 10px;
+  padding: 10px 15px;
 
   border: 2px solid #d9d9d9;
   border-radius: 25px;
@@ -283,7 +280,7 @@ img {
   height: 100px;
 }
 
-.icon {
+.info-icon {
   width: 24px;
   height: 24px;
   margin-right: 11px;
@@ -293,6 +290,14 @@ img {
   color: #0065fc;
   border: 1px solid #d9d9d9;
   border-radius: 50%;
+}
+
+/* -------------------- buttons commons ------------------- */
+
+.booki-button {
+  font-weight: 700;
+  border: 0;
+  outline: none;
 }
 
 /* -------------------- cards commons -------------------- */
@@ -537,11 +542,13 @@ img {
 }
 
 @media only screen and (768px <= width < 992px) {
-  
+  .booki-filters__main_container {
+    gap: 1.5%;
+  }
+
   .filters-buttons {
-    width: 80%;
-    justify-content: flex-start;
-    gap: 3%;
+    width: 100%;
+    gap: 1.5%;
   }
 
   .booki-lodging {
