@@ -190,7 +190,7 @@ img {
   z-index: 1;
 }
 
-.search-button-container {
+.location-dot-container {
   position: absolute;
   display: flex;
   justify-content: center;
