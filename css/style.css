@@ -606,7 +606,6 @@ img {
     border-top: none;
     border-bottom: 2px solid transparent;
   }
-  
 
   .booki-header__nav li:hover {
     border-top: none;
@@ -669,11 +668,10 @@ img {
 
   .lodging_cards-container {
     flex-direction: column;
-    flex-wrap: nowrap;
   }
 
   .lodging-card {
-    height: 300px;
+    flex: 1 1 199px;
   }
 
   .lodging-card > .small_card-img_container {
