@@ -381,7 +381,6 @@ img {
 }
 
 .lodging_cards-container {
-
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
@@ -649,6 +648,10 @@ img {
     align-items: center;
   }
 
+  .filter-button {
+    font-size: 2.8vw;
+  }
+
   .booki-lodging {
     flex-direction: column-reverse;
   }
@@ -666,7 +669,7 @@ img {
 
   .lodging_cards-container {
     flex-direction: column;
-    margin:0;
+    margin: 0;
   }
 
   .lodging-card {
@@ -679,7 +682,7 @@ img {
     flex-shrink: 0;
   }
 
-  .lodging-show_more{
+  .lodging-show_more {
     display: none;
   }
 
