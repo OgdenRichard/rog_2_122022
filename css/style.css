@@ -708,12 +708,12 @@ img {
     width: 100%;
   }
   .search-button {
-    width: 49px;
+    width: 15%;
     left: 85%;
   }
 
   .location-dot-container{
-    width: 49px;
+    width: 15%;
   }
 
   /* .booki-search__form_container input {
