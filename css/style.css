@@ -108,11 +108,14 @@ img {
   margin-top: 44px;
 }
 
-.booki-header__nav ul {
+.booki-header__nav{
   width: 200px;
+}
+
+.booki-header__nav ul {
+  width: 100%;
   margin: 0;
   padding-left: 0;
-
   display: flex;
   justify-content: flex-end;
 }
