@@ -3,7 +3,7 @@
   <head>
     <title>Booki</title>
     <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0" />
     <script
       src="https://kit.fontawesome.com/e5de308960.js"
       crossorigin="anonymous"
@@ -39,12 +39,23 @@
             </div>
             <form action="" method="get">
               <input
+                class="search-input"
                 type="text"
                 name="search_input"
                 placeholder="Marseille, France"
               />
-              <button class="booki-button search-button button-text" type="submit">Rechercher</button>
-              <button class="booki-button search-button button-mglass" type="submit"><i class="fa-solid fa-magnifying-glass"></i></button>
+              <button
+                class="booki-button search-button button-label"
+                type="submit"
+              >
+                Rechercher
+              </button>
+              <button
+                class="booki-button search-button button-mglass"
+                type="submit"
+              >
+                <i class="fa-solid fa-magnifying-glass"></i>
+              </button>
             </form>
           </div>
         </section>
@@ -54,19 +65,39 @@
             <div class="filters-boxes-container">
               <div class="filter-box">
                 <i class="fa-solid fa-money-bill-wave fa-xl"></i>
-                <button class="booki-button filter-button" data-filter="economique">Économique</button>
+                <button
+                  class="booki-button filter-button"
+                  data-filter="economique"
+                >
+                  Économique
+                </button>
               </div>
               <div class="filter-box">
                 <i class="fa-solid fa-person fa-xl"></i>
-                <button class="booki-button filter-button" data-filter="familial">Familial</button>
+                <button
+                  class="booki-button filter-button"
+                  data-filter="familial"
+                >
+                  Familial
+                </button>
               </div>
               <div class="filter-box">
                 <i class="fa-solid fa-heart fa-xl"></i>
-                <button class="booki-button filter-button" data-filter="romantique">Romantique</button>
+                <button
+                  class="booki-button filter-button"
+                  data-filter="romantique"
+                >
+                  Romantique
+                </button>
               </div>
               <div class="filter-box">
                 <i class="fa-solid fa-dog fa-xl"></i>
-                <button class="booki-button filter-button" data-filter="economique">Animaux autorisés</button>
+                <button
+                  class="booki-button filter-button"
+                  data-filter="economique"
+                >
+                  Animaux autorisés
+                </button>
               </div>
             </div>
           </div>
