@@ -640,7 +640,7 @@ img {
   }
 
   .filter-button {
-    font-size: 2.8vw;
+    font-size: 2.45vw;
   }
 
   .booki-lodging {
@@ -709,5 +709,9 @@ img {
 
   .booki-search__form_container input {
     padding: 10px 15vw 10px 15vw;
+  }
+
+  .filter-button {
+    font-size: 2.8vw;
   }
 }
