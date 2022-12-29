@@ -654,11 +654,11 @@ img {
 
   .filter-box {
     flex: 1 1 40%;
-    align-items: center;
+    justify-content: flex-start;
   }
 
   .filter-button {
-    font-size: 2.45vw;
+    font-size: 2.35vw;
   }
 
   .booki-lodging {
