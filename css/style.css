@@ -10,7 +10,6 @@ body {
   width: 100%;
   max-width: 1400px;
   margin: auto;
-  padding: auto;
 }
 
 body,
@@ -488,6 +487,10 @@ img {
   justify-content: space-between;
   align-items: center;
   margin-top: 22px;
+}
+
+.popular-title h2 {
+  font-size: 22px;
 }
 
 .popular-title i {
