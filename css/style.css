@@ -443,13 +443,15 @@ img {
 .small_card-info_container {
   display: flex;
   flex-direction: column;
-  margin-left: 10px;
-  padding-right: 10px;
+  padding-left: 10px;
+  padding-right: 5px;
+  /* padding-bottom: ; */
 }
 
 .lodging-card > .small_card-info_container {
   height: 37.5%;
-  justify-content: start;
+  justify-content: space-between;
+  padding-bottom: 7px;
 }
 
 .popular-card > .small_card-info_container {
@@ -462,7 +464,9 @@ img {
 }
 
 .small_card-info_container h3 {
+  line-height: 1;
   margin-bottom: 0px;
+
 }
 
 .lodging-card > .small_card-info_container h3 {
