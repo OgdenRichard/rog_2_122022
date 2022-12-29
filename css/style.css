@@ -121,7 +121,7 @@ img {
 }
 
 .booki-header__nav li {
-  padding: 44px 33px;
+  padding: 44px 33px 0 33px;
 
   border-top: 2px solid transparent;
 
@@ -141,6 +141,10 @@ img {
 .booki-search {
   display: flex;
   flex-direction: column;
+}
+
+.booki-search h1{
+  margin-bottom: 0;
 }
 
 .booki-search__form_container {
