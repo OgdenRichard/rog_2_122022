@@ -113,18 +113,16 @@ img {
 
 .booki-header__nav ul {
   width: 100%;
+  justify-content: flex-end;
+  display: flex;
   margin: 0;
   padding-left: 0;
-  display: flex;
-  justify-content: flex-end;
 }
 
 .booki-header__nav li {
-  padding: 44px 33px 22px 33px;
-
-  border-top: 2px solid transparent;
-
   display: inline-block;
+  padding: 44px 33px 22px 33px;
+  border-top: 2px solid transparent;
 }
 
 .booki-header__nav li:hover {
@@ -157,11 +155,9 @@ img {
   width: 100%;
   height: 49px;
   padding: 10px 50px 10px 70px;
-
   border-radius: 15px;
   outline: none;
   border: 1px solid #f2f2f2;
-
   line-height: 1;
   font-family: "Raleway", sans-serif;
   font-size: 18px;
@@ -171,6 +167,7 @@ img {
 
 .search-button {
   position: absolute;
+  z-index: 2;
   height: 49px;
   left: 282px;
   right: 0px;
@@ -178,15 +175,10 @@ img {
   bottom: 0px;
   margin: 0;
   padding: 0;
-
   border-radius: 0px 15px 15px 0px;
-
   background: #0065fc;
-
   font-size: 18px;
   color: #fff;
-
-  z-index: 2;
 }
 
 .search-button:active {
@@ -204,6 +196,7 @@ img {
 
 .location-dot-container {
   position: absolute;
+  z-index: 2;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -270,9 +263,7 @@ img {
   justify-content: center;
   align-items: center;
   gap: 10px;
-
   padding: 10px 15px;
-
   border: 2px solid #d9d9d9;
   border-radius: 25px;
 }
@@ -290,19 +281,19 @@ img {
 }
 
 .booki-filters__info_container {
+  height: 100px;
   display: flex;
   align-items: center;
-  height: 100px;
 }
 
 .info-icon {
   width: 24px;
   height: 24px;
-  margin-right: 11px;
   display: flex;
   justify-content: center;
   align-items: center;
   flex-shrink: 0;
+  margin-right: 11px;
   border: 1px solid #d9d9d9;
   border-radius: 50%;
   color: #0065fc;
@@ -315,9 +306,9 @@ img {
 /* -------------------- buttons commons ------------------- */
 
 .booki-button {
-  font-weight: 700;
-  border: 0;
   outline: none;
+  border: 0;
+  font-weight: 700;
 }
 
 /* -------------------- cards commons -------------------- */
@@ -326,10 +317,8 @@ img {
   position: relative;
   margin: 0;
   display: flex;
-
   border: none;
   border-radius: 20px;
-
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
 }
 
@@ -340,15 +329,15 @@ img {
 .card-link {
   position: absolute;
   width: 100%;
+  z-index: 1;
   height: 100%;
   top: 0;
   left: 0;
-  z-index: 1;
 }
 
 .star-rating {
-  display: flex;
   height: 20%;
+  display: flex;
   align-items: center;
   padding-top: 0px;
 }
@@ -370,8 +359,8 @@ img {
 
 .booki-lodging__container,
 .booki-lodging__popular {
-  background: #f2f2f2;
   border-radius: 20px;
+  background-color: #f2f2f2;
 }
 
 .booki-lodging__container {
@@ -403,22 +392,21 @@ img {
 }
 
 .popular-cards-container {
-  padding-bottom: 34px;
-
   display: flex;
   flex-direction: column;
   gap: 30px;
+  padding-bottom: 34px;
 }
 
 .lodging-card,
 .popular-card {
-  background: #ffffff;
+  background-color: #ffffff;
 }
 
 .lodging-card {
-  flex: 1 1 30%;
   height: 199px;
   flex-direction: column;
+  flex: 1 1 30%;
 }
 
 .popular-card {
@@ -465,8 +453,8 @@ img {
 }
 
 .small_card-info_container h3 {
-  line-height: 1;
   margin-bottom: 0px;
+  line-height: 1;
 }
 
 .lodging-card > .small_card-info_container h3 {
@@ -523,8 +511,8 @@ img {
 
 .activity-card__img_container {
   height: 85%;
-  border-radius: 20px 20px 0px 0px;
   overflow: hidden;
+  border-radius: 20px 20px 0px 0px;
 }
 
 .activity-title {
@@ -636,10 +624,8 @@ img {
     width: 50%;
     padding-left: 0;
     padding-right: 0;
-
     border-top: none;
     border-bottom: 2px solid transparent;
-
     text-align: center;
   }
 
@@ -692,8 +678,8 @@ img {
   }
 
   .booki-lodging__container {
-    background: transparent;
     padding: 0;
+    background: transparent;
   }
 
   .booki-lodging__container,
