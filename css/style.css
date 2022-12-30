@@ -189,6 +189,10 @@ img {
   z-index: 2;
 }
 
+.search-button:active {
+  background-color: #d9d9d9;
+}
+
 .button-label {
   width: 132px;
 }
@@ -215,14 +219,14 @@ img {
 
 ::-moz-placeholder {
   /* Mozilla Firefox */
- /*  color: black;
+  /*  color: black;
   opacity: 1; */
   font-family: "Raleway", sans-serif;
   font-weight: 700;
 }
 ::-webkit-input-placeholder {
   /* Chrome */
-/*   color: black;
+  /*   color: black;
   opacity: 1; */
   font-family: "Raleway", sans-serif;
   font-weight: 700;
@@ -279,6 +283,10 @@ img {
 
 .filter-box:hover {
   background-color: #deebff;
+}
+
+.filter-box:active {
+  background-color: #d9d9d9;
 }
 
 .filter-box i {
