@@ -595,6 +595,10 @@ img {
   .popular-cards-container {
     flex-direction: row;
   }
+
+  .popular-card {
+    flex: 1 1 30%;
+  }
 }
 
 @media only screen and (width < 768px) {
