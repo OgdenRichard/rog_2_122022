@@ -552,10 +552,8 @@ img {
                           BREAKPOINTS
 \*========================================================*/
 
-@media only screen and (min-width: 992px) {
-}
-
 @media only screen and (768px <= width < 992px) {
+  /* -------------------- booki filters -------------------- */
   .booki-filters__main_container {
     gap: 1.5%;
   }
@@ -564,7 +562,7 @@ img {
     width: 100%;
     gap: 1.5%;
   }
-
+  /* -------------------- booki lodging -------------------- */
   .booki-lodging {
     flex-direction: column;
     gap: 50px;
@@ -590,11 +588,18 @@ img {
 }
 
 @media only screen and (width < 768px) {
+  /*========================================================*\
+                          BASE
+  \*========================================================*/
   header,
   main,
   footer {
     margin: 0;
   }
+
+  /*========================================================*\
+                          LAYOUT
+  \*========================================================*/
 
   .main-container {
     width: 100%;
@@ -604,6 +609,20 @@ img {
     justify-content: center;
   }
 
+  .booki-filters,
+  .booki-search,
+  .lodging-title,
+  .booki-lodging__popular,
+  .lodging_cards-container,
+  .booki-activities {
+    padding: 0 8.5%;
+  }
+
+  /*========================================================*\
+                          MODULES
+  \*========================================================*/
+
+  /* -------------------- booki header -------------------- */
   .booki-header {
     width: 100%;
     flex-direction: column;
@@ -634,18 +653,13 @@ img {
     border-bottom: 2px solid #0065fc;
   }
 
+  /* -------------------- booki search -------------------- */
+
   .button-label {
     display: none;
   }
 
-  .booki-filters,
-  .booki-search,
-  .lodging-title,
-  .booki-lodging__popular,
-  .lodging_cards-container,
-  .booki-activities {
-    padding: 0 8.5%;
-  }
+  /* -------------------- booki filters -------------------- */
 
   .booki-filters__main_container {
     flex-direction: column;
@@ -672,6 +686,8 @@ img {
   .fa-info {
     transform: scale(1.5, 1.2);
   }
+
+  /* -------------------- booki lodging -------------------- */
 
   .booki-lodging {
     flex-direction: column-reverse;
@@ -707,6 +723,8 @@ img {
     display: none;
   }
 
+  /* ------------------- booki activities ------------------- */
+
   .booki-activities__cards {
     flex-direction: column;
     gap: 30px;
@@ -725,6 +743,8 @@ img {
     height: 30%;
   }
 
+  /* -------------------- booki footer -------------------- */
+
   .booki-footer {
     width: 100%;
     height: auto;
@@ -733,6 +753,7 @@ img {
 }
 
 @media only screen and (width <= 400px) {
+  /* -------------------- booki search -------------------- */
   .booki-search__form_container {
     width: 100%;
   }
@@ -749,6 +770,8 @@ img {
   .search-input {
     padding: 10px 15vw 10px 15vw;
   }
+
+  /* -------------------- booki filters -------------------- */
 
   .filter-button {
     font-size: 2.8vw;
