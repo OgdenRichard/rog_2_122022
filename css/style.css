@@ -163,7 +163,9 @@ img {
   border: 1px solid #f2f2f2;
 
   line-height: 1;
+  font-family: "Raleway", sans-serif;
   font-size: 18px;
+  font-weight: 700;
   color: black;
 }
 
@@ -211,29 +213,23 @@ img {
 
 /* ------ placeholders ------ */
 
-:-moz-placeholder {
-  /* Mozilla Firefox 4 to 18 */
-  color: black;
-  opacity: 1;
+::-moz-placeholder {
+  /* Mozilla Firefox */
+ /*  color: black;
+  opacity: 1; */
   font-family: "Raleway", sans-serif;
   font-weight: 700;
 }
-::-moz-placeholder {
-  /* Mozilla Firefox 19+ */
-  color: black;
-  opacity: 1;
+::-webkit-input-placeholder {
+  /* Chrome */
+/*   color: black;
+  opacity: 1; */
   font-family: "Raleway", sans-serif;
   font-weight: 700;
 }
 :-ms-input-placeholder {
-  /* Internet Explorer 10-11 */
-  color: black;
-  font-family: "Raleway", sans-serif;
-  font-weight: 700;
-}
-::-ms-input-placeholder {
-  /* Microsoft Edge */
-  color: black;
+  /* Other browsers */
+  /* color: black; */
   font-family: "Raleway", sans-serif;
   font-weight: 700;
 }
