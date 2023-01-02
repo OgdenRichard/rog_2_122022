@@ -175,6 +175,7 @@ img {
   bottom: 0px;
   margin: 0;
   padding: 0;
+  border: 0;
   border-radius: 0px 15px 15px 0px;
   background: #0065fc;
   font-size: 18px;
@@ -243,7 +244,7 @@ img {
   gap: 3%;
 }
 
-.filters-boxes-container {
+.filter-buttons-container {
   width: 80%;
   display: flex;
   justify-content: flex-start;
@@ -251,12 +252,6 @@ img {
 }
 
 .filter-button {
-  font-size: 17px;
-  background-color: transparent;
-  color: black;
-}
-
-.filter-box {
   height: 50px;
   width: auto;
   display: flex;
@@ -264,19 +259,22 @@ img {
   align-items: center;
   gap: 10px;
   padding: 10px 15px;
+  background-color: transparent;
   border: 2px solid #d9d9d9;
   border-radius: 25px;
+  font-size: 17px;
+  color: black;
 }
 
-.filter-box:hover {
+.filter-button:hover {
   background-color: #deebff;
 }
 
-.filter-box:active {
+.filter-button:active {
   background-color: #d9d9d9;
 }
 
-.filter-box i {
+.filter-button i {
   color: #0065fc;
 }
 
@@ -307,7 +305,6 @@ img {
 
 .booki-button {
   outline: none;
-  border: 0;
   font-weight: 700;
 }
 
@@ -558,7 +555,7 @@ img {
     gap: 1.5%;
   }
 
-  .filters-boxes-container {
+  .filter-buttons-container {
     width: 100%;
     gap: 1.5%;
   }
@@ -667,7 +664,7 @@ img {
     gap: 1.5%;
   }
 
-  .filters-boxes-container {
+  .filter-buttons-container {
     width: 100%;
     flex-wrap: wrap;
     justify-content: center;
