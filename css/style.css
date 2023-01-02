@@ -671,12 +671,8 @@ img {
     gap: 30px;
   }
 
-  .filter-box {
-    flex: 1 1 40%;
-    justify-content: flex-start;
-  }
-
   .filter-button {
+    flex: 1 1 40%;
     font-size: 2.35vw;
   }
 
