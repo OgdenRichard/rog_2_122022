@@ -10,6 +10,7 @@ body {
   width: 100%;
   max-width: 1400px;
   margin: auto;
+  font-size: 16px;
 }
 
 body,
@@ -30,11 +31,11 @@ footer {
 }
 
 h1 {
-  font-size: 22px;
+  font-size: 1.375em;
 }
 
 h2 {
-  font-size: 18px;
+  font-size: 1.125em;
 }
 
 ul {
@@ -49,7 +50,7 @@ a {
 li,
 p,
 h3 {
-  font-size: 16px;
+  font-size: 1em;
 }
 
 img {
@@ -160,7 +161,7 @@ img {
   border: 1px solid #f2f2f2;
   line-height: 1;
   font-family: "Raleway", sans-serif;
-  font-size: 18px;
+  font-size: 1.125em;
   font-weight: 700;
   color: black;
 }
@@ -178,7 +179,7 @@ img {
   border: 0;
   border-radius: 0px 15px 15px 0px;
   background: #0065fc;
-  font-size: 18px;
+  font-size: 1.125em;
   color: #fff;
 }
 
@@ -262,7 +263,7 @@ img {
   background-color: transparent;
   border: 2px solid #d9d9d9;
   border-radius: 25px;
-  font-size: 17px;
+  font-size: 1.0625em;
   color: black;
 }
 
@@ -459,7 +460,7 @@ img {
 }
 
 .small_card-info_container p {
-  font-size: 14px;
+  font-size: 0.875em;
 }
 
 .lodging-card > .small_card-info_container p {
@@ -479,12 +480,12 @@ img {
 }
 
 .popular-title h2 {
-  font-size: 22px;
+  font-size: 1.375em;
 }
 
 .popular-title i {
   display: inline-block;
-  font-size: 18px;
+  font-size: 1.125em;
   color: #0065fc;
 }
 
