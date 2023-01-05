@@ -408,7 +408,7 @@ img {
 .lodging-card {
   height: 199px;
   flex-direction: column;
-  flex: 1 1 30%;
+  flex: 30%;
 }
 
 .popular-card {
@@ -581,7 +581,7 @@ img {
   }
 
   .popular-card {
-    flex: 1 1 30%;
+    flex: 30%;
   }
 }
 
@@ -673,7 +673,7 @@ img {
   }
 
   .filter-button {
-    flex: 1 1 40%;
+    flex: 40%;
     font-size: 2.35vw;
   }
 
@@ -704,7 +704,7 @@ img {
   }
 
   .lodging-card {
-    flex: 1 1 199px;
+    flex: 199px;
   }
 
   .lodging-card > .small_card-img_container {
