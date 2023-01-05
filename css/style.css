@@ -407,8 +407,8 @@ img {
 
 .lodging-card {
   height: 199px;
-  flex-direction: column;
   flex: 30%;
+  flex-direction: column;
 }
 
 .popular-card {
