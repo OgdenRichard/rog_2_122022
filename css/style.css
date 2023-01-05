@@ -414,7 +414,6 @@ img {
 .popular-card {
   width: auto;
   height: 144px;
-  flex-direction: row;
 }
 
 .small_card-img_container {
@@ -438,16 +437,17 @@ img {
   flex-direction: column;
   justify-content: space-between;
   padding-left: 10px;
-  padding-right: 5px;
 }
 
 .lodging-card > .small_card-info_container {
   height: 37.5%;
+  padding-right: 5px;
   padding-bottom: 7px;
 }
 
 .popular-card > .small_card-info_container {
   width: 60%;
+  padding-right: 35px;
 }
 
 .info-text {
