@@ -720,6 +720,7 @@ img {
     width: 100%;
     height: auto;
     flex-direction: column;
+    padding-left: 8.5%;
   }
 }
 
