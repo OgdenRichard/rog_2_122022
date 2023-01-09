@@ -1,2 +1,2 @@
-# oc_dajr_p3
-Projet #3 | Dynamisez une page web avec des animations CSS
+# oc_dajr_p2
+Projet #2 | Transformez une maquette en site web avec
